@@ -6,12 +6,10 @@ const NumberButton = props => {
     <>
       {
         /* Display a button element rendering the data being passed down from the parent container on props */
-        <button>{name}</button>
+        <button className="number">{name}</button>
       }
     </>
   );
 };
 
-export default {
-  NumberButton
-};
+export default NumberButton;
