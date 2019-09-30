@@ -1,23 +1,78 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
 
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: 2rem;
+}
+
+.button-spe {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: blueviolet;
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: 2rem;
+}
+.button-ope {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: skyblue;
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: 2rem;
+}
+
+.right {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+}
+
+.operation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specials {
+  display: inline;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  flex-wrap: wrap;
+}
